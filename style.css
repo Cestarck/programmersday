@@ -10,8 +10,8 @@ body {
 
 body {
    
-    background-image: url('prog.jpg');
-    background-size: auto; 
+    background-image: url('prog2.jpg');
+    background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat; 
 }
