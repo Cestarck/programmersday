@@ -30,7 +30,18 @@ if ((fechaActual.getMonth() === 8 && fechaActual.getDate() === 12) )
      "¡Hoy celebramos a los magos del código binario! ¡Que la fuerza (y el café) los acompañe!",
      "¡Feliz Día del Programador! ¡Gracias por convertir nuestras ideas locas en realidad (y por arreglar nuestros errores)!",
      "¡Un brindis por los programadores! ¡Porque sin ustedes, estaríamos aún en la Edad de Piedra digital!",
-     "¡Feliz Día del Programador! ¡Que tus bugs sean pocos y tus commits sean muchos!"
+     "¡Feliz Día del Programador! ¡Que tus bugs sean pocos y tus commits sean muchos!",
+     "¡Feliz Día del Programador! ¡Ustedes son los verdaderos Jedi del código, capaces de dominar cualquier lenguaje de programación con la Fuerza!",
+        "¡Hoy celebramos a los magos de la informática! ¡Su habilidad para crear mundos virtuales es digna de Hogwarts!",
+        "¡Feliz Día del Programador! ¡Gracias por ser los guardianes de la galaxia digital, protegiéndonos de los bugs y los virus!",
+        "¡Un brindis por los programadores! ¡Su lógica y creatividad son más poderosas que el Anillo Único!",
+        "¡Feliz Día del Programador! ¡Ustedes son los verdaderos superhéroes, capaces de arreglar cualquier problema con un simple 'sudo'!",
+        "¡Hoy honramos a los arquitectos del futuro! ¡Su código construye los cimientos de la innovación!",
+        "¡Feliz Día del Programador! ¡Gracias por hacer posible que viajemos a través del ciberespacio a la velocidad de la luz!",
+        "¡Un saludo a los programadores! ¡Su capacidad para resolver problemas es más impresionante que el Halcón Milenario!",
+        "¡Feliz Día del Programador! ¡Ustedes son los alquimistas modernos, transformando líneas de código en oro digital!",
+        "¡Hoy celebramos a los verdaderos maestros del universo! ¡Su conocimiento es más vasto que la biblioteca de Alejandría!"
+
   ];
 
   const mensajeAleatorio = mensajesGuru[Math.floor(Math.random() * mensajesGuru.length)];
