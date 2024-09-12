@@ -11,7 +11,7 @@ body {
 body {
    
     background-image: url('prog.jpg');
-    background-size: cover; 
+    background-size: auto; 
     background-position: center; 
     background-repeat: no-repeat; 
 }
