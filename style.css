@@ -1,34 +1,42 @@
 body {
-    font-family: 'Arial', sans-serif; /* Fuente más legible */
+    font-family: 'Arial', sans-serif; 
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom right, #2980b9, #6dd5fa); /* Gradiente de fondo */
+    background: linear-gradient(to bottom right, #2980b9, #6dd5fa); 
     margin: 0;
+}
+
+body {
+   
+    background-image: url('prog.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 .container {
     background-color: #fff;
-    padding: 40px 50px; /* Más espacio interior */
-    border-radius: 15px; /* Bordes más redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    padding: 40px 50px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     text-align: center;
 }
 
 h1 {
-    color: #2c3e50; /* Color de texto más oscuro */
-    font-size: 2.5em; /* Título más grande */
+    color: #2c3e50; 
+    font-size: 2.5em; 
     margin-bottom: 30px;
 }
 
 #mensaje {
     font-size: 1.4em;
     color: #34495e;
-    line-height: 1.6; /* Mejor espaciado entre líneas */
+    line-height: 1.6; 
 }
 
-/* Animación sutil para el mensaje */
+
 #mensaje {
     animation: fadeIn 1s ease-in-out;
 }
@@ -38,15 +46,15 @@ h1 {
     to { opacity: 1; }
 }
 
-/* Estilos para el confeti */
+
 .confetti {
     position: absolute;
     width: 10px;
     height: 10px;
-    background-color: #f00; /* Color rojo por defecto, puedes cambiarlo */
+    background-color: #f00; 
     border-radius: 50%;
-    opacity: 0; /* Inicialmente invisible */
-    animation: confetti-fall 3s linear forwards; /* Animación de caída */
+    opacity: 0; 
+    animation: confetti-fall 3s linear forwards; 
 }
 
 @keyframes confetti-fall {
@@ -58,4 +66,16 @@ h1 {
         opacity: 0;
         transform: translateY(100vh) rotate(360deg);
     }
+}
+.agradecimiento {
+    position: absolute; 
+    bottom: 20px; 
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff; 
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);/* Fondo semitransparente */
+    border-radius: 5px;
 }
